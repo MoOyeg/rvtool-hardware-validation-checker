@@ -1,0 +1,104 @@
+{
+ "response": {
+  "numFound": 2,
+  "docs": [
+   {
+    "certified_versions": [
+     "Red Hat Enterprise Linux 9",
+     "Red Hat Enterprise Linux 8",
+     "Red Hat OpenStack Platform 17",
+     "Red Hat OpenStack Platform 16",
+     "Red Hat Gluster Storage 3",
+     "Red Hat Enterprise Linux 7",
+     "Red Hat Virtualization 4",
+     "Red Hat OpenStack Services on OpenShift 18",
+     "Red Hat OpenShift Container Platform 4",
+     "Red Hat Enterprise Linux 10"
+    ],
+    "partnerName": "Hewlett Packard Enterprise",
+    "certified_products": [
+     "Red Hat Gluster Storage",
+     "Red Hat OpenShift Container Platform",
+     "Red Hat OpenStack Services on OpenShift",
+     "Red Hat Virtualization",
+     "Red Hat Enterprise Linux",
+     "Red Hat OpenStack Platform"
+    ],
+    "certified_granularity_compute": [
+     "FV Live Migration",
+     "CPU Core Performance  Counters",
+     "PCIE Pass-Through Storage",
+     "PCIE Pass-Through Network",
+     "Max Logical CPU",
+     "NVDIMM memory",
+     "USB 3 (5 Gigabit) Ports",
+     "NVDIMM block-mode",
+     "USB Pass-Through Storage",
+     "System Memory",
+     "USB 2.0 Ports",
+     "System Controlled Scaling",
+     "CPU Pinning",
+     "Uncore Performance Counters",
+     "Virtual Machine (Host)"
+    ],
+    "model": "DL380 Gen10 Plus",
+    "id": "124815",
+    "partnerProductName": "HPE ProLiant DL380 Gen10 Plus",
+    "make": "HPE ProLiant",
+    "view_uri": "https://catalog.redhat.com/hardware/system/detail/124815"
+   },
+   {
+    "certified_versions": [
+     "Red Hat OpenStack Platform 17",
+     "Red Hat Gluster Storage 3",
+     "Red Hat OpenStack Platform 16",
+     "Red Hat OpenStack Platform 13",
+     "Red Hat OpenShift Container Platform 4",
+     "Red Hat OpenStack Platform 10",
+     "Red Hat Enterprise Linux for Real Time 8",
+     "Red Hat Enterprise Linux for Real Time 7",
+     "Red Hat Enterprise Linux 6",
+     "Red Hat Enterprise Linux 9",
+     "Red Hat Enterprise Linux 8",
+     "Red Hat Enterprise Linux 7",
+     "Red Hat Virtualization 4",
+     "Red Hat OpenStack Services on OpenShift 18",
+     "Red Hat Enterprise Linux 10"
+    ],
+    "partnerName": "Hewlett Packard Enterprise",
+    "certified_products": [
+     "Red Hat Gluster Storage",
+     "Red Hat OpenShift Container Platform",
+     "Red Hat OpenStack Services on OpenShift",
+     "Red Hat Virtualization",
+     "Red Hat Enterprise Linux",
+     "Red Hat Enterprise Linux for Real Time",
+     "Red Hat OpenStack Platform"
+    ],
+    "certified_granularity_compute": [
+     "FV Live Migration",
+     "CPU Core Performance  Counters",
+     "PCIE Pass-Through Storage",
+     "PCIE Pass-Through Network",
+     "Max Logical CPU",
+     "Realtime",
+     "NVDIMM memory",
+     "USB 3 (5 Gigabit) Ports",
+     "NVDIMM block-mode",
+     "System Memory",
+     "USB 2.0 Ports",
+     "System Controlled Scaling",
+     "USB 3.1 gen 1 (5 Gigabit) Ports",
+     "CPU Pinning",
+     "Uncore Performance Counters",
+     "Virtual Machine (Host)"
+    ],
+    "model": "DL380 Gen10",
+    "id": "6590",
+    "partnerProductName": "HPE ProLiant DL380 Gen10",
+    "make": "HPE ProLiant",
+    "view_uri": "https://catalog.redhat.com/hardware/system/detail/6590"
+   }
+  ]
+ }
+}

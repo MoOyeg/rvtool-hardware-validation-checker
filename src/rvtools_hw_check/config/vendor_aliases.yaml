@@ -1,0 +1,55 @@
+# Vendor normalization table (spec FR-2.4).
+#
+# vendors: canonical name -> list of aliases. Matching ignores case and
+# punctuation. An alias also matches when it is the leading word(s) of the
+# vendor string, so "dell" covers "Dell Inc." and "Dell Technologies".
+vendors:
+  Dell:
+    - dell
+    - dell inc
+    - dell emc
+    - dell technologies
+  HPE:
+    - hpe
+    - hp
+    - hewlett packard enterprise
+    - hewlett packard
+  Cisco:
+    - cisco
+    - cisco systems
+  Lenovo:
+    - lenovo
+    - ibm lenovo
+  Supermicro:
+    - supermicro
+    - super micro
+  Fujitsu:
+    - fujitsu
+  Huawei:
+    - huawei
+  Inspur:
+    - inspur
+  Nutanix:
+    - nutanix
+  Gigabyte:
+    - gigabyte
+    - giga computing
+  Quanta:
+    - quanta
+    - quanta cloud technology
+  Intel:
+    - intel
+
+# Model rewrites, applied in order after whitespace is collapsed. Each entry
+# is a Python regex. "vendor" limits a rule to one canonical vendor.
+model_rewrites:
+  # Lenovo appends the machine type, e.g. "ThinkSystem SR650 -[7X06CTO1WW]-"
+  - pattern: '\s*-?\[[^\]]*\]-?\s*$'
+    replace: ''
+  # Cisco reports PIDs such as "UCSC-C220-M5SX"; the catalog uses "UCS C220 M5SX"
+  - vendor: Cisco
+    pattern: '^UCS[CB]-'
+    replace: 'UCS '
+  - vendor: Cisco
+    pattern: '-'
+    replace: ' '

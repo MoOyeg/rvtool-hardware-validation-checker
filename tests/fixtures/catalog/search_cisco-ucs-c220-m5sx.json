@@ -1,0 +1,35 @@
+{
+ "response": {
+  "numFound": 1,
+  "docs": [
+   {
+    "certified_versions": [
+     "Red Hat Enterprise Linux 9",
+     "Red Hat OpenStack Platform 17",
+     "Red Hat OpenShift Container Platform 4"
+    ],
+    "partnerName": "Cisco",
+    "certified_products": [
+     "Red Hat OpenShift Container Platform",
+     "Red Hat Enterprise Linux",
+     "Red Hat OpenStack Platform"
+    ],
+    "certified_granularity_compute": [
+     "USB 3 (5 Gigabit) Ports",
+     "CPU Core Performance  Counters",
+     "System Memory",
+     "USB 2.0 Ports",
+     "System Controlled Scaling",
+     "Max Logical CPU",
+     "Uncore Performance Counters",
+     "Virtual Machine (Host)"
+    ],
+    "model": "C220 M5SX",
+    "id": "294347",
+    "partnerProductName": "UCS C220 M5SX",
+    "make": "UCS",
+    "view_uri": "https://catalog.redhat.com/hardware/system/detail/294347"
+   }
+  ]
+ }
+}

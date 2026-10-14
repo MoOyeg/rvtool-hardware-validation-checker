@@ -1,0 +1,51 @@
+{
+ "response": {
+  "numFound": 1,
+  "docs": [
+   {
+    "certified_versions": [
+     "Red Hat Enterprise Linux 9",
+     "Red Hat Enterprise Linux 8",
+     "Red Hat OpenStack Platform 17",
+     "Red Hat Enterprise Linux 7",
+     "Red Hat Gluster Storage 3",
+     "Red Hat OpenStack Platform 16",
+     "Red Hat Virtualization 4",
+     "Red Hat OpenStack Services on OpenShift 18",
+     "Red Hat OpenShift Container Platform 4",
+     "Red Hat Enterprise Linux for Real Time 9",
+     "Red Hat Enterprise Linux for Real Time 8"
+    ],
+    "partnerName": "Dell Technologies",
+    "certified_products": [
+     "Red Hat Gluster Storage",
+     "Red Hat OpenShift Container Platform",
+     "Red Hat OpenStack Services on OpenShift",
+     "Red Hat Virtualization",
+     "Red Hat Enterprise Linux",
+     "Red Hat Enterprise Linux for Real Time",
+     "Red Hat OpenStack Platform"
+    ],
+    "certified_granularity_compute": [
+     "NVDIMM memory",
+     "USB 3 (5 Gigabit) Ports",
+     "NVDIMM block-mode",
+     "CPU Core Performance  Counters",
+     "System Memory",
+     "USB 2.0 Ports",
+     "System Controlled Scaling",
+     "Max Logical CPU",
+     "CPU Pinning",
+     "Uncore Performance Counters",
+     "Virtual Machine (Host)",
+     "Realtime"
+    ],
+    "model": "R650",
+    "id": "81185",
+    "partnerProductName": "Dell PowerEdge R650",
+    "make": "Dell PowerEdge",
+    "view_uri": "https://catalog.redhat.com/hardware/system/detail/81185"
+   }
+  ]
+ }
+}
